@@ -47,7 +47,7 @@ app.get('/start', function (req, res) {
   res.redirect('https://auth.monday.com/oauth2/authorize?' +
     querystring.stringify({
       client_id: client_id,
-      redirect_uri: redirect_uri + '/oauth/callback',
+      redirect_uri: redirect_uri,
       state: state,
       scopes: "me:read boards:read"
     }));

@@ -1,7 +1,7 @@
 ## Overview
 
 This is the "Slack Integration" example Monday app.
-<br>It can be used as a board recipe:
+<br>It can be used as a recipe sentence on a board:
 
 - When an update is created, post it in <b>this channel</b>
 
@@ -38,3 +38,7 @@ $ npm install
 ```
 $ npm start
 ```
+
+## Add your tunnel URL to .env
+
+The monday CLI will print your app's URL in the format `https://abcd1234.apps-tunnel.monday.com`. Copy this URL and paste it in the .env file. 
